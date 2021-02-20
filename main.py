@@ -29,4 +29,6 @@ def check_link(link):
 
 
 for url in urls:
+    print(f'Информация по {url}')
     check_link(url)
+    print('_'*13)
